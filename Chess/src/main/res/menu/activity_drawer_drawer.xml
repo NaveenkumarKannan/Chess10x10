@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/tactic"
+            android:icon="@drawable/tactics"
+            android:title="Tactics" />
+        <item
+            android:id="@+id/theme"
+            android:icon="@drawable/theme"
+            android:title="Change Theme" />
+        <item
+            android:id="@+id/demo"
+            android:icon="@drawable/video"
+            android:title="Demo Videos" />
+        <item
+            android:id="@+id/buy"
+            android:icon="@drawable/cart"
+            android:title="Buy Board" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/rate"
+                android:icon="@drawable/rating"
+                android:title="Rate this App" />
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/Feed"
+                android:icon="@drawable/feed"
+                android:title="FeedBacks" />
+            <item
+                android:id="@+id/log_out"
+                android:icon="@drawable/logout"
+                android:title="Log out" />
+        </menu>
+    </item>
+
+</menu>
